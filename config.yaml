@@ -1,0 +1,23 @@
+# Model backends to route prompts to.
+# Add, remove, or swap models here; no Python changes needed.
+#
+# For Ollama: replace "llama3.2:3b" with whatever model you've pulled locally. Check available models with: ollama list
+
+models:
+  - id: claude
+    model: claude-sonnet-4-6
+    provider: anthropic
+
+  - id: gpt4o
+    model: gpt-4o
+    provider: openai
+
+  - id: local
+    model: ollama/llama3.2
+    provider: ollama
+    base_url: http://localhost:11434
+
+# Shared generation parameters
+defaults:
+  max_tokens: 512
+  temperature: 0.7
