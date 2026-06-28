@@ -36,7 +36,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ### 2. Clone and install the project
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/jeffnyman/llm-eval-lab
 cd llm-eval-lab
 uv sync
 ```
