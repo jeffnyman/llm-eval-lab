@@ -5,6 +5,7 @@ description = "Multi-backend LLM routing, observability, and evaluation lab"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+  "deepeval>=2.5.5",
   "litellm>=1.90.0",
   "ollama>=0.6.2",
   "openai>=2.44.0",
