@@ -1458,7 +1458,7 @@ wheels = [
 [[package]]
 name = "llm-eval-lab"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "deepeval" },
     { name = "litellm" },
